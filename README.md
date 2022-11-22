@@ -1,4 +1,4 @@
-# Yolink-Get-Devices
+# Yolink Get Devices
 Python program to periodically poll the YoLink MQTT broker to obtain and display the list of all devices bound to an account.
 
 Developed on a Raspberry Pi.  May run in other environments that support Python, but only tested on Pi's.

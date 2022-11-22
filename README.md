@@ -5,7 +5,7 @@ Developed on a Raspberry Pi.  May run in other environments that support Python,
 
 
 ### Setup:
-   1. Copy yolink_get_devices.py and yolink_get_devices_template.cfg to a folder on your Raspberry Pi.
+   1. Copy yolink_get_devices.py and yolink_get_devices_template.cfg to the folder on your Raspberry Pi that you will be using for the program (e.g, "YL_get_devices").  THe files are available for download at https://github.com/jwtaylor310/YoLink_Get_Device_List.  Click on the green 'Code" button and select "Downlaod ZIP" to download the files.
   
    2. Obtain User Access Credentials for your YoLink account.  This is done by opening the YoLink app on a cell phone, then selecting the 
       'hamburger' icon at the top-left corner and navigating to Settings...Account...Advanced Settings...User Access Credentials.  Record

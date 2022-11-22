@@ -17,10 +17,11 @@ Developed on a Raspberry Pi.  May run in other environments that support Python,
      
 ### Running the program:
    Open a terminal session on the Raspberry Pi.  Navigate to the folder where you have installed the "yolink_get_devices.py" and "yolink_get_devices.cfg" files.
-   Start the program with the command: "python yolink_get_devices.py".  (Some Pi's may require specifying "python3" instead of just "python").  The program
+   Start the program with the command: 
+   "python yolink_get_devices.py".  (Some Pi's may require specifying "python3" instead of just "python").  The program
    will start and it will request the current list of devices from the YoLink MQTT broker.  The results will be displayed in the terminal session.  The program
    will then sleep for 5 minutes before repeating the process.  You can adjust the sleep time by editing the entry for 'poll_interval' in the configuration
-   file.  The value is the number of seconds between poll.
+   file.  The value is the number of seconds between poll.  Press "Ctrl-c" to exit the program.
 
    The program may be run continuously.  It keeps track of the expiration time of the access token.  Five minutes before the token is due to expire the program
    requests a new token.  This allows the program to maintain valid authentication indefinitely.
